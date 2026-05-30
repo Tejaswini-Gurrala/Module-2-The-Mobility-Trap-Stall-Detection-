@@ -17,6 +17,9 @@
 
 >Code file (in C) : [Module 2 _The_Mobility_Trap.c](https://github.com/user-attachments/files/28422086/Module.2._The_Mobility_Trap.c)
 
+>Code explanation :
+ I used INPUT_PULLUP for the pushbutton, so the button normally reads HIGH when it is not pressed. When the button is  pressed, the input becomes LOW. The program keeps checking the button state using an if-else statement. If the        button is pressed, the LED turns ON indicating that a stall has been detected. If the button is not pressed, the LED  remains OFF, indicating that no stall has been detected.
+
 >Tinkercad Simulation Link : https://www.tinkercad.com/things/g3P7uWzHfWG-module-2/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=LI8ZuOb_W_CSrWYZdLfNBtCsjpSzzESOhh_ei-azKtQ
 
 >Code in text :
